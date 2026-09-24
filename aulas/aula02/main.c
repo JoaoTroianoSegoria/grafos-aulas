@@ -2,8 +2,7 @@
 #include "grafo_matriz.h"
 
 int main() {
-
-    /* matriz de adjacencia usa vertices com verticer (posição com posição) */
+    // matriz de adjacencia usa vertices com verticer (posição com posição) 
     GrafoMatriz grafo;
 
     inicializar(&grafo, 8);
@@ -25,13 +24,13 @@ int main() {
     // Exemplo de grafo com arcos (direcionado)
     inicializar(&grafo, 3);
     /* as lihas e colunas começam em zero. ent o tamanho 3x3 serão:
-    
+
             coluna coluna coluna
                0     1     1
     linha 0 | 0,0 | 0,1 | 0,2
     linha 1 | 1,0 | 1,1 | 1,2
     linha 2 | 2,0 | 2,1 | 2,2
-   
+
     */
 
     inserir_arco(&grafo, 0, 1); 
@@ -42,6 +41,6 @@ int main() {
     printf("\nMatriz de Adjacencia (grafo direcionado)\n");
 
     exibir_matriz(&grafo);
-    
+
     return 0;
 }
