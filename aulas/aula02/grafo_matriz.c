@@ -12,7 +12,7 @@ void inserir_aresta(GrafoMatriz *grafo, int u, int v){
     grafo->adjacencia[v][u] = 1;
 }
 
-void inserir_arco(GrafoMatriz *grafo, int u, int v){
+void inserir_arco(GrafoMatriz *grafo, int u, int v) {
     grafo->adjacencia[u][v] = 1;
 }
 
@@ -24,3 +24,4 @@ void exibir_matriz(GrafoMatriz *grafo){
         printf("\n");
     }
 }
+

@@ -10,7 +10,7 @@ typedef struct {
 
 void inicializar(GrafoMatriz *grafo, int numero);
 void inserir_aresta(GrafoMatriz *grafo, int u, int v);
-void exibir_matriz(GrafoMatriz *grafo);
 void inserir_arco(GrafoMatriz *grafo, int u, int v);
+void exibir_matriz(GrafoMatriz *grafo);
 
 #endif
