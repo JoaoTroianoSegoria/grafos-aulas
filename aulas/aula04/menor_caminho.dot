@@ -1,0 +1,8 @@
+digraph D [
+    A [shape="circle"]
+    B [shape="circle"]
+    C [shape="circle"]
+    A -- B [label="4"]
+    A -- C [label="1"]
+    C -- B [label="2"]
+]
